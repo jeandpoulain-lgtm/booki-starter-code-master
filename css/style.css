@@ -121,7 +121,40 @@ a {
     margin-bottom: 5px;
 }
 
-
+/**********Nav Bar*****************/
+/*nav ecartement*/
+nav{
+   display: flex;
+   justify-content: space-between; 
+}
+/*nav lien justifier a droite*/
+link{
+    display: flex;
+    justify-content: flex-end;
+}
+/* lien a marge et hauteur(top) pour le surlignement*/
+link ,a{
+    margin-left: 40px;
+    padding-top: 6px;
+}
+/* couleur et surlignement en haut(top)*/
+.element:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+/***********************************/
+/******* fin de la Nav Bar***********/
+/*mdolule de recherche justifier a droite centrer verticalemnt */
+.moduleRechercher{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*couleur icon*/
+.my-icon-black{
+    color: black;
+}
+/***********************************/
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

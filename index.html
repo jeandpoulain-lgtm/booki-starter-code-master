@@ -16,7 +16,30 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <!--mise en place de la nav bar dans le header(en-tête)-->
+            <nav>
+                <img src="images/logo/Booki.png" alt="logo Booki">
+                <section class="link"> <!--balise pour lier Hebergement activite pour deplacement-->
+                    <a href="#Hébergements" class="element">Hébergements</a>
+                    <a href="#Activités" class="element">Activités</a>
+                </section>
+            </nav>
+            <section class="finalHead">
+                <h1>Trouvez votre hébergement pour des vacance de rêve</h1>
+                <p>En plein cenrte-ville ou en pleine nature</p>
+                <div class="moduleRechercher">
+                    <i class="fa-xs fa-solid fa-map-marker my-icon-black" aria-hidden="true"></i>
+                    <form methode="#get" action="">
+                         <p>
+                            <label for="ville"> </label> 
+                            <input type="text" name="ville" id="ville" placeholder="Marseille, France">
+                        </p>
+                    </form>
+                    <button class="recherch" type="button">rechercher</button>
+                </div>
+            </section>
+        </header>
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
@@ -89,7 +112,9 @@
                 </section>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+
+        </footer>
     </div>
 </body>
 
