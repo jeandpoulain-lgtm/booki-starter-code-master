@@ -142,21 +142,113 @@ link ,a{
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
-/***********************************/
+
+/************************************/
 /******* fin de la Nav Bar***********/
-/*mdolule de recherche justifier a droite centrer verticalemnt */
+/*mdolule de recherche justifier a gauche centrer verticalemnt */
 .moduleRechercher{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center;   
 }
 /*couleur icon*/
-.my-icon-black{
+.my-icon-black {
+    color: black; 
+}
+
+/* fond et contour*/
+.marqueurMap{
+    
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+    left: 0px;
+    border-radius: 12px 0px 0px 12px;
+    background-color: #F2F2F2;
+    padding: 10px;
+    
+}
+
+/*formulaire*/
+input{
+    right: 2px;
+    height: 37px;
+    width: 200px;
     color: black;
+    border: none;
+    font-weight: bold;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    text-align: center;
+    
+}
+
+/*bouton*/
+.recherche{
+    right: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #0065FC;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 0px 12px 12px 0px;
+    height: 37px;
+    padding: 9px 12px 9px 12px;
 }
 /***********************************/
+/***********Filter Bar**************/
+.filterBar{
+    display: flex;
+    justify-content: flex-start; 
+}
 
+li{
+    list-style-type: none;
+    display: flex;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
 
+ul{
+    margin-top: 26px ;
+   
+}
+
+.moduleFiltre{     
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+
+.moduleFiltre:hover{
+    background-color: #DEEBFF;
+}
+
+/***********************************/
+/********module information*********/
+.moduleInformation {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.moduleInformation .fa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    border: 1px solid #d9d9d9;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 10px;
+}
+/***********************************/
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
