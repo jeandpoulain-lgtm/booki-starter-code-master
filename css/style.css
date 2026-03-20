@@ -76,6 +76,45 @@ a {
     width: 65%;
 }
 
+/********card hebergement***********/
+
+.hebergements-card img {
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.hebergements-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -40px;
+}
+
+.hebergements-card .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+}
+
+.hebergements-card .card-content {
+    width: 240px;
+    height: 100px;
+}
+
+.hebergements-card .card-title{
+    margin-top: -10px;
+}
+
+.hebergements-card .card-subtitle {
+    margin-top: -10px;
+}
+
+.hebergements-card .card-rating {
+    margin-top: -10px;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -249,6 +288,22 @@ ul{
     margin-right: 10px;
 }
 /***********************************/
+/*********activite******************/
+.galerie {
+  display: flex;          /* Aligne les photos sur une ligne */
+  gap: 20px;              /* Ajoute un espace entre les photos */
+  align-items: center;    /* Aligne verticalement au centre */
+}
+
+.galerie img {
+  flex: 1;                /* Permet aux images de se partager l'espace */
+  height: 400px;          /* Fixe une hauteur identique pour l'alignement */
+  width: 320px;           /* Force le navigateur à recalculer la largeur via flex */
+  object-fit: cover;      /* Coupe l'image proprement pour remplir le cadre sans déformer */
+}
+
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
