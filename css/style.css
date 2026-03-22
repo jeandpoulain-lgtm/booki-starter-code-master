@@ -247,12 +247,10 @@ li{
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    
 }
 
 ul{
     margin-top: 26px ;
-   
 }
 
 .moduleFiltre{     
@@ -290,18 +288,48 @@ ul{
 /***********************************/
 /*********activite******************/
 .galerie {
-  display: flex;          /* Aligne les photos sur une ligne */
-  gap: 20px;              /* Ajoute un espace entre les photos */
-  align-items: center;    /* Aligne verticalement au centre */
+    display: flex;          
+    gap: 20px;              
+    align-items: center;
 }
 
 .galerie img {
-  flex: 1;                /* Permet aux images de se partager l'espace */
-  height: 400px;          /* Fixe une hauteur identique pour l'alignement */
-  width: 320px;           /* Force le navigateur à recalculer la largeur via flex */
-  object-fit: cover;      /* Coupe l'image proprement pour remplir le cadre sans déformer */
+    flex: 1;                
+    height: 420px;          
+    width: 320px;           
+    object-fit: cover;   
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
+.card-activites {
+
+    box-shadow: 0px 5px 5px  #d9d9d9;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.card-activites-title{
+    margin-left: 0px;
+}
+
+/***********************************/
+/*************footer****************/
+.panel-footer {
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-top: 80px;
+    
+}
+th{
+  font-size: 20px;  
+}
+/* Aligne  */
+th, td {
+    padding: 8px;
+    text-align: left; 
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
